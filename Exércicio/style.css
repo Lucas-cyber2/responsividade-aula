@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    text-align: center;
+
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.item {
+    background-color: lightskyblue;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.botao {
+    background-color:blue;
+    
+    color: #FFFFFF;
+    }
+    @media (max-width: 600px) {
+        .botao {
+            display: none;
+            
+        }
+    }
